@@ -1,0 +1,272 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+
+/* Header start  */
+
+.header {
+    background-image: url('../images/banner/banner2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 808px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.header_content {
+    text-align: right;
+}
+
+.header_content h1 {
+    font-style: normal;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: #151414;
+}
+
+.header_content p {
+    font-style: normal;
+    text-align: right;
+    color: #151414;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 20px 0px;
+}
+
+.header_content button {
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background: #E85821;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 10px 0px;
+    border: none;
+}
+
+/* Header end  */
+
+
+/* My failures of previous year start */
+
+.previous {
+    padding: 80px 0px;
+}
+
+.previous_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 68px;
+}
+
+.previous_content div {
+    width: 50%;
+}
+
+.previous_content img {
+    width: 100%;
+    height: 100%;
+}
+
+.previous_content .text h2 {
+    font-size: 40px;
+    font-family: 'Work Sans';;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+
+.previous_content .text p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    color: gray;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 20px 0px;
+    text-align: left;
+    max-width: 75%;
+}
+
+.previous_content .text li {
+    margin: 0;
+    padding: 4px 30px;
+    list-style: none;
+    background-image: url("../images/icons/mark.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 24px;
+    font-family: 'Work Sans';
+    font-size: 16px;
+    color: gray;
+}
+
+/* My failures of previous year end */
+
+
+/* My Plans start */
+
+.plans {
+    padding: 80px 0px;
+    font-family: 'Work Sans';
+}
+
+.plans .plan-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.My-Plans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.plans-line {
+    text-align: center;
+    width: 300px;
+}
+
+.plans-line img {
+    width: 92px;
+    margin-bottom: 10px;
+}
+
+.plans-line h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+}
+
+.plans-line p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+    padding: 5px 0px;
+}
+
+/* My Plans end */
+
+
+/* mindset start */
+
+.mind {
+    padding: 80px 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.mind_bg {
+    width: 1140px;
+    height: 300px;
+    background-image: url("../images/watch.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+.mind_content {
+    border-radius: 8px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(0, 95, 172, 0) 100%);
+    padding: 59px 0px 59px 64px;
+}
+
+.mind_content h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.mind_content button {
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 26px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #F15B22;
+    cursor: pointer;
+}
+
+/* mind end */
+
+
+/*  footer start  */
+
+.Future{
+    display: flex;
+    gap: 331px;
+    background: #151414;
+    padding: 160px 200px;
+}
+
+.Future .sec-title{
+    text-align: left;
+    color: #FFFFFF;
+}
+.Future .sec-des{
+    color: #FFFFFF;
+}
+.Future .btn_primary{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 26px;
+    line-height: 23px;
+    text-align: center;
+    color: #F15B22;
+    cursor: pointer;
+}
+.Future a{
+    text-decoration: none;
+}
+.Future .sec-info{
+    color: #FFFFFF;
+}
+.Future input{
+    margin-bottom: 25px;
+    border: 0;
+    width: 100%;
+    height: 40px;
+    padding: 18px 30px;
+}
+/*  footer end  */

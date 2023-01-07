@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    font: Work Sans;
+}
+
+/* Header part start */
+
+.container {
+    background: #000 url('../banner/banner2.png');
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    height: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+    position: absolute;
+    text-align: right;
+}
+.container h1 {
+    font-weight: 700;
+    font-size: 65px;
+    text-align: center;
+    z-index: 10;
+    text-align: right;
+}
+.container p {
+    color: #000000;
+    font-weight: 400;
+    font-size: 18px;
+    z-index: 9;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 30px;
+    text-align: right;
+}
+
+/* Header part end */
+
+/* header-button start */
+
+.header-button {
+    z-index: 8;
+    font-weight: 600;
+    font-size: 20px;
+    width: 160px;
+    height: 56px;
+    background: orangered;
+    border-radius: 5px;
+    border: 0;
+    color: rgb(255, 255, 255);
+}
+
+/* header-button end */
+
+/*My failures of previous year part start*/
+
+.previous {
+    padding-top: 125px;
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    align-items: center;
+}
+
+.pevious-img {
+    width: 450px;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.previous_text {
+    padding-right: 80px;
+    padding-top: 100px;
+}
+
+/*My failures of previous year end*/
+
+/* My plans section start */
+
+.My-Plans{
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 113px;
+}
+
+.my-plan-title {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 113px;
+}
+
+.plan-container {
+    display: flex;
+    gap: 24px;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.plan-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+.plan {
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 30px;
+    gap: 86;
+}
